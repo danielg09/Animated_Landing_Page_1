@@ -1,0 +1,75 @@
+.header-animation {
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+}
+
+.btn-animation {
+  -webkit-animation-delay: .1s;
+  -moz-animation-delay: .1s;
+}
+
+html,body{
+
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.intro{
+
+	height: 100%;
+	width: 100%;
+	margin: auto;;
+	background: url('fondo.jpg')no-repeat 50% 50%;
+	display: table;
+	top: 0;
+	margin-bottom: 5%;
+	background-size: cover;
+}
+
+.intro .inner{
+
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: none;
+
+}
+
+.content{
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 28%;
+}
+
+.content h1{
+
+	color: white;
+}
+
+@media screen and (max-width: 900px){
+	.content{
+
+		padding-bottom: 30%;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.content{
+
+		padding-bottom: 40%;
+	}
+}
+
+@media screen and (max-width: 480px){
+	.content{
+
+		padding-bottom: 80%;
+	}
+
+}
+
+
+
